@@ -189,5 +189,12 @@
         </section>
 
     </div>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'http://localhost:5678/webhook/a4e7c7ce-4cbb-4365-aa38-b9acba8052ed/chat'
+	});
 </body>
 </html>
